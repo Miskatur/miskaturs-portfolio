@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Furniclaim",
+        "img": [
+            "https://i.ibb.co/h9XD67F/screencapture-furniclaim-web-app-2022-12-09-05-14-34.png",
+            "https://i.ibb.co/vYjZVYL/screencapture-furniclaim-web-app-allproducts-2022-12-11-15-44-39.png",
+            "https://i.ibb.co/gr29g0k/screencapture-furniclaim-web-app-dashboard-allorders-2022-12-11-15-47-07.png"
+        ],
+        "front": "https://i.ibb.co/G7gXb0x/Screenshot-9.png",
+        "description": "A Furniture Reselling Website",
+        "githubLink": "https://github.com/Miskatur/Furniclaim-client",
+        "liveLink": "https://furniclaim.web.app/",
+        "technologies": [
+            "Used TailwindCSS, DaisyUI, ReactJS, React-lottifie for Frontend",
+            "Used ExpressJS, NodeJS, MongoDB, JWT and Vercel for Backend",
+            "Used Firebase for Authentication and Deployment"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Traveloholic Soul",
+        "img": [
+            "https://i.ibb.co/1qrwRM8/screencapture-traveloholic-42aac-web-app-2022-11-10-06-57-54.png",
+            "https://i.ibb.co/hfF9RQg/screencapture-traveloholic-42aac-web-app-playlists-2022-11-10-06-58-17.png",
+            "https://i.ibb.co/2nSPGWr/screencapture-traveloholic-42aac-web-app-playlist-details-636d5daf9f7c8b71ff70d0d1-2022-11-12-03-09.png"
+        ],
+        "front": "https://i.ibb.co/kMMRv53/Screenshot-7.png",
+        "description": "A Travel Blogger Portal",
+        "githubLink": "https://github.com/Miskatur/traveloholic-client",
+        "liveLink": "https://traveloholic-42aac.web.app/",
+        "technologies": [
+            "Used TailwindCSS, DaisyUI, ReactJS, React-lottifie for Frontend",
+            "Used ExpressJS, NodeJS, MongoDB, JWT and Vercel for Backend",
+            "Used Firebase for Authentication and Deployment"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Ema-John",
+        "img": [
+            "https://i.ibb.co/hZ5y97Z/screencapture-ema-john-simple-ddc2b-web-app-2022-12-11-15-59-55.png",
+            "https://i.ibb.co/pv1C25W/screencapture-ema-john-simple-ddc2b-web-app-orders-2022-12-11-16-01-32.png",
+            "https://i.ibb.co/JktDYSM/screencapture-ema-john-simple-ddc2b-web-app-login-2022-12-11-16-03-27.png"
+        ],
+        "front": "https://i.ibb.co/C7br9p6/Screenshot-8.png",
+        "description": "An E-commerce Website",
+        "githubLink": "https://github.com/Miskatur/ema-john-simple",
+        "liveLink": "https://ema-john-simple-ddc2b.web.app/",
+        "technologies": [
+            "Used TailwindCSS, DaisyUI, ReactJS, React-lottifie for Frontend",
+            "Used ExpressJS, NodeJS, MongoDB, JWT and Vercel for Backend",
+            "Used Firebase for Authentication and Deployment"
+        ]
+    }
+]

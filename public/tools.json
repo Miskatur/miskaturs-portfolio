@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "VS Code",
+        "image": "https://i.ibb.co/smNWHp5/8bbfe7fd594073dc6271d5d852c7381a.png"
+    },
+    {
+        "id": 2,
+        "name": "Github",
+        "image": "https://i.ibb.co/rck0Sgt/2048px-Octicons-mark-github-svg.png"
+    },
+    {
+        "id": 3,
+        "name": "Firebase",
+        "image": "https://i.ibb.co/ry6JyRD/firebase.png"
+    },
+    {
+        "id": 4,
+        "name": "Netlify",
+        "image": "https://i.ibb.co/FXSNjxj/logomark-dark.png"
+    },
+    {
+        "id": 5,
+        "name": "Vercel",
+        "image": "https://i.ibb.co/8cRgS2H/vercel-icon-512x449-3422jidz.png"
+    },
+    {
+        "id": 6,
+        "name": "NPM",
+        "image": "https://i.ibb.co/WcnSvDy/npm-logo.png"
+    },
+    {
+        "id": 7,
+        "name": "Chrome Devs Tool",
+        "image": "https://i.ibb.co/TRzPjdG/icon-512.png"
+    },
+    {
+        "id": 8,
+        "name": "Figma",
+        "image": "https://i.ibb.co/2drMf2Q/Figma-1-logo.png"
+    }
+]

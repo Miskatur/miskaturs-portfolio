@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Home from './components/Home/Home';
+import Main from './components/Main/Main';
+import ProjectDetails from './components/Home/MyProjects/ProjectDetails';
+import Blog from './components/Blog/Blog';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Main></Main>,
+      children: [
+        {
+          path: '/',
+          element: <Home></Home>
+        },
+        {
+          path: '/project/:id',
+          element: <ProjectDetails></ProjectDetails>,
+          loader: ({ params }) => fetch(`project.json/${params.id}`)
+        },
+        {
+          path: '/blog',
+          element: <Blog></Blog>
+        }
+      ]
+    },
+
+  ])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <RouterProvider router={router}>
+      </RouterProvider>
     </div>
   );
 }

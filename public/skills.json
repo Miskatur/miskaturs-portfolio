@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "HTML",
+        "image": "https://i.ibb.co/PWsnM4p/5847f5bdcef1014c0b5e489c.png"
+    },
+    {
+        "id": 2,
+        "name": "CSS",
+        "image": "https://i.ibb.co/GFqRQpH/css3-logo-png-transparent.png"
+    },
+    {
+        "id": 3,
+        "name": "Javascript",
+        "image": "https://i.ibb.co/CvTtCyc/logo-javascript-logo-png-transparent.png"
+    },
+    {
+        "id": 4,
+        "name": "ReactJS",
+        "image": "https://i.ibb.co/TwpXzsP/2300px-React-icon-svg.png"
+    },
+    {
+        "id": 5,
+        "name": "Tailwind CSS",
+        "image": "https://i.ibb.co/44kccd0/2048px-Tailwind-CSS-Logo-svg.png"
+    },
+    {
+        "id": 6,
+        "name": "Bootstrap 5",
+        "image": "https://i.ibb.co/KyCSW6R/512px-Bootstrap-logo-svg.png"
+    },
+    {
+        "id": 7,
+        "name": "Mamba UI",
+        "image": "https://i.ibb.co/tQBLtb3/Jg-BOz69c-400x400.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Daisy UI",
+        "image": "https://i.ibb.co/r78gFgw/yellow-daisy-logo-EB1988-E937-seeklogo-com.jpg"
+    },
+    {
+        "id": 9,
+        "name": "MongoDB",
+        "image": "https://i.ibb.co/W2QBfmf/mongodb-3629020-3030245.png"
+    },
+    {
+        "id": 10,
+        "name": "Node JS",
+        "image": "https://i.ibb.co/5YrGv03/nodejs-logo-FBE122-E377-seeklogo-com.png"
+    },
+    {
+        "id": 11,
+        "name": "Express JS",
+        "image": "https://i.ibb.co/wLJz3TT/express.webp"
+    }
+]
