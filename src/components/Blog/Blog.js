@@ -11,7 +11,7 @@ const Blog = () => {
                     This Page is under construction!
                 </h3>
                 <p className="text-sm text-center text-gray-600">
-                    Sorry for the inconvenience but I am performing some maintenance at the moment. If need anything Feel free to conatact me at <b>Miskaturrahman34826@gmail.com</b> <br />
+                    Sorry for the inconvenience but I am performing some maintenance at the moment. If need anything Feel free to contact me at <b>Miskaturrahman34826@gmail.com</b> <br />
                     — <i> Miskatur Rahman </i>
                 </p>
             </div>
