@@ -24,7 +24,7 @@ const MyProjects = () => {
                 </div>
             </div>
 
-            <div className='grid lg:grid-cols-2 lg:gap-10 lg:my-20' data-aos="fade-up"
+            <div className='grid lg:grid-cols-2 gap-10 my-20' data-aos="fade-up"
                 data-aos-anchor-placement="top-bottom" duration='500'>
                 {
                     projects.map(project =>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 // import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png'
 import { HashLink as Link } from 'react-router-hash-link';
@@ -19,10 +19,18 @@ const Navbar = () => {
         </a> */}
 
     </>
+
+    useEffect(() => {
+        // 👇️ scroll to top on page load
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    }, []);
+
     return (
         <div className=''>
             <div className={`navbar bg-gradient-to-r from-rose-400 to-fuchsia-500 lg:px-20 top-0 fixed z-10 bg-opacity-30`}>
-                <Link to={'/'} className='flex justify-center items-center btn btn-ghost'>
+                <Link to={'/'} className='flex justify-center items-center btn btn-ghost' onClick={() => {
+                    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+                }}>
                     <img src={logo} alt="" className=' h-14 w-full' />
                 </Link>
                 <div className="navbar-end">
