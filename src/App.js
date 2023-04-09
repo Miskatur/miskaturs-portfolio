@@ -26,7 +26,6 @@ function App() {
         {
           path: '/project/:id',
           element: <ProjectDetails></ProjectDetails>,
-          loader: ({ params }) => fetch(`project.json/${params.id}`)
         },
         {
           path: '/blog',

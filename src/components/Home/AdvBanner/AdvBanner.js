@@ -3,7 +3,7 @@ import React from 'react';
 const AdvBanner = () => {
     return (
         <div className='my-20'>
-            <div className="p-6 py-12 bg-pink-400">
+            <div className="p-6 py-12 bg-gradient-to-r from-sky-600 to-indigo-500">
                 <div className="container mx-auto">
                     <div className="flex flex-col lg:flex-row items-center justify-between">
                         <div className="">
@@ -17,7 +17,7 @@ const AdvBanner = () => {
                             <span>Visit My Gig for 10% Discount on</span>
                             <span className="font-bold text-3xl text-white">Fiver</span>
                         </div>
-                        <a href="https://www.fiverr.com/share/z8ADDv" target={"_blank"} rel="noreferrer noopener" className="px-5 mt-4 lg:mt-0 py-3 rounded-md border block bg-gradient-to-r from-sky-500 to-indigo-500 text-white font-bold">Order Now</a>
+                        <a href="https://www.fiverr.com/share/p5k1eG" target={"_blank"} rel="noreferrer noopener" className="px-5 mt-4 lg:mt-0 py-3 rounded-md border block bg-gradient-to-r from-sky-500 to-indigo-500 text-white font-bold">Order Now</a>
                     </div>
                 </div>
             </div>

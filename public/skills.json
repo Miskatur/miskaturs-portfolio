@@ -53,5 +53,15 @@
         "id": 11,
         "name": "Express JS",
         "image": "https://i.ibb.co/wLJz3TT/express.webp"
+    },
+    {
+        "id": 11,
+        "name": "Material UI",
+        "image": "https://i.ibb.co/6gQYdnf/logo.png"
+    },
+    {
+        "id": 12,
+        "name": "Redux",
+        "image": "https://i.ibb.co/MVsMFLf/logo.png"
     }
 ]

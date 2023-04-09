@@ -7,6 +7,8 @@ const Navbar = () => {
         <Link to={'#home'}><li className='btn btn-ghost flex justify-center items-center lg:text-white text-lg'>Home</li></Link>
         <Link to={'#myskills'}><li className='btn btn-ghost flex justify-center items-center lg:text-white text-lg'>My Skills</li></Link>
 
+        <Link to={'#myExperience'}><li className='btn btn-ghost flex justify-center items-center lg:text-white text-lg'>Experience</li></Link>
+
         <Link to={'#myprojects'}><li className='btn btn-ghost flex justify-center items-center lg:text-white text-lg'>Projects</li></Link>
 
         <Link to={'#contactme'}><li className='btn btn-ghost flex justify-center items-center lg:text-white text-lg'>Contact Me</li></Link>
@@ -27,7 +29,7 @@ const Navbar = () => {
 
     return (
         <div className=''>
-            <div className={`navbar bg-gradient-to-r from-rose-400 to-fuchsia-500 lg:px-20 top-0 fixed z-10 bg-opacity-30`}>
+            <div className={`navbar bg-gradient-to-r from-sky-500 to-indigo-500 lg:px-20 top-0 fixed z-10 bg-opacity-30`}>
                 <Link to={'/'} className='flex justify-center items-center btn btn-ghost' onClick={() => {
                     window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
                 }}>

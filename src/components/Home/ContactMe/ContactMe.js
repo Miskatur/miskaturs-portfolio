@@ -35,7 +35,7 @@ const ContactMe = () => {
                     <BsFillSquareFill className='ml-3 text-[#6D67E4]' />
                 </div>
             </div>
-            <section className="py-6 w-full bg-gradient-to-r from-rose-400 to-fuchsia-500">
+            <section className="py-6 w-full bg-gradient-to-r from-indigo-500 to-sky-500">
                 <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x justify-center items-center">
                     <div className="py-6 md:py-0 md:px-6 text-white">
                         <h1 className="text-4xl font-bold">Get in touch</h1>
@@ -65,29 +65,37 @@ const ContactMe = () => {
                         className="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
                         <label className="block">
                             <span className="mb-1 text-white">Full name</span>
-                            <input type="text"
+                            <input
+                                type="text"
                                 name="user_name"
                                 placeholder="your name"
-                                className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400  input input-bordered" />
+                                className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400  input input-bordered"
+                                required
+                            />
                         </label>
                         <label className="block">
                             <span className="mb-1 text-white">Email address</span>
                             <input type="email"
                                 name="user_email"
                                 placeholder="youremail@gmail.com"
-                                className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400  input input-bordered" />
+                                className="block w-full rounded-md shadow-sm focus:ring focus:ring-opacity-75 focus:ring-violet-400  input input-bordered"
+                                required
+                            />
                         </label>
                         <label className="block">
                             <span className="mb-1 text-white">Message</span>
                             <textarea
                                 rows="3"
                                 name="message"
-                                className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400  textarea textarea-bordered h-64" placeholder='your message...'></textarea>
+                                className="block w-full rounded-md focus:ring focus:ring-opacity-75 focus:ring-violet-400  textarea textarea-bordered h-64"
+                                placeholder='your message...'
+                                required
+                            ></textarea>
                         </label>
                         <button
                             type='submit'
                             value="Send"
-                            className='flex justify-center items-center border-2 rounded-md px-5 py-3 bg-gradient-to-r from-sky-500 to-indigo-500 text-white font-bold text-xl'>
+                            className='flex justify-center items-center border-2 rounded-md px-5 py-3 bg-gradient-to-r from-sky-500 to-indigo-500 text-white cursor-pointer font-bold text-xl'>
                             Submit</button>
                     </form>
                 </div>

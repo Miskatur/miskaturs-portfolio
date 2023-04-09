@@ -34,7 +34,7 @@ const MySkills = () => {
             <div className='grid grid-cols-2 lg:grid-cols-4 mt-8 mb-16 gap-5 text-center lg:w-9/12 mx-auto' data-aos="fade-up" duration='1500'>
                 {
                     skills.map((e, i) =>
-                        <div key={i} className=" py-3 px-4  flex justify-center items-center bg-base-100 border-2 shadow-lg  shadow-[#a3b6cd] bg-gradient-to-r from-rose-400 to-fuchsia-500 text-white font-bold hover:scale-110 duration-500  rounded-tl-3xl rounded-br-3xl">
+                        <div key={i} className=" py-3 px-4  flex justify-center items-center bg-base-100 border-2 shadow-lg  shadow-[#a3b6cd] bg-gradient-to-r from-[#6D67E4] to-sky-500 text-white font-bold hover:scale-110 duration-500  rounded-tl-3xl rounded-br-3xl">
                             <img src={e.image} alt="Shoes" className='mr-2 w-16 rounded-full' />
                             <p className='font-bold text-lg'>{e.name}</p>
                         </div>
